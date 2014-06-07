@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<Button
+    android:id="@+id/tenpercent"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/editText"
+    android:layout_marginLeft="19dp"
+    android:layout_marginTop="57dp"
+    android:text="@string/tenpercent" />
+
+<Button
+    android:id="@+id/fifteenpercent"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/tenpercent"
+    android:layout_alignBottom="@+id/tenpercent"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="86dp"
+    android:text="@string/fifteenpercent" />
+
+<Button
+    android:id="@+id/twelvepercent"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/tenpercent"
+    android:layout_alignBottom="@+id/tenpercent"
+    android:layout_marginLeft="28dp"
+    android:layout_toRightOf="@+id/tenpercent"
+    android:text="@string/twelvepercent" />
+
+<TextView
+    android:id="@+id/tip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/tenpercent"
+    android:layout_marginTop="92dp"
+    android:hint="@string/tipAmount"
+    android:text="@string/tipAmount" />
+
+<EditText
+    android:id="@+id/editText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="63dp"
+    android:ems="10" >
+
+    <requestFocus />
+</EditText>
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="22dp"
+    android:text="@string/prompt" />
+
+</RelativeLayout>
